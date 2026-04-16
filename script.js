@@ -3,6 +3,6 @@ function showMessage() {
 }
 function handleClick() {
   const btn = document.querySelector(".magic-btn");
-  btn.innerText = "Clicked ✅";
+  btn.innerText = "checked ✅";
   btn.style.background = "orange";
 }
