@@ -48,6 +48,25 @@ nav a {
   background: black;
   color: white;
 }
+.magic-btn {
+  padding: 12px 25px;
+  background: #3bb77e;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.magic-btn:hover {
+  background: black;
+  transform: scale(1.1);
+}
+
+.magic-btn:active {
+  transform: scale(0.95);
+}
 
 /* Sections */
 section {
